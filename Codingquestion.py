@@ -15,15 +15,12 @@ def equilibrium(arr):
         # get left sum
         for j in range(i):
             leftsum += arr[j]
-            print("L")
-            print(i, leftsum)
-
+          
  
         # get right sum
         for j in range(i + 1, n):
             rightsum += arr[j]
-            print("r")
-            print(j, rightsum)
+    
  
         # if leftsum and rightsum are same,
         # then we are done
